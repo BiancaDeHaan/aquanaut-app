@@ -29,7 +29,6 @@ function Layout(props) {
         </div>
         <BorderButton >Play</BorderButton>
       </Header>
-      {props.children}
     </div>
   )
 }
@@ -65,17 +64,5 @@ width: 100vw;
 overflow: hidden;
 z-index: -1;
 ` 
-
-const ColorBackground = styled.body`
-  background: rgba(232,255,252,1);
-  layout=fill;
-  objectFit=cover;
-  position: fixed;
-   top: 0;
-   left: 0;
-   width: 100vw;
-   height: 100vh;
-   z-index: -1;`
-
 
 export default Layout
