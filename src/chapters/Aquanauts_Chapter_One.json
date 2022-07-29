@@ -1,0 +1,145 @@
+{
+    "state": "text",
+    "story": [
+        {
+            "type": "dialogue",
+            "name": "Lil Jacob",
+            "text": "Ahh! Greetings! You startled me!"
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Sorry about that... who are you?"
+        },
+        {
+            "type": "dialogue",
+            "name": "Lil Jacob",
+            "text": "I'm Lil Jacob! And you are?"
+        },
+        {
+            "type": "choice",
+            "choices": [
+                "Well I just started interning here a few days back…",
+                "I’m me haha… though perhaps this isn’t the time for humor..."
+            ],
+            "responses": [
+                [
+                    {
+                        "name": "Lil Jacob",
+                        "text": "Ah the new intern! No wonder I haven’t seen you before! It’s nice to meet you!"
+                    }
+                ],
+                [
+                    {
+                        "name": "Lil Jacob",
+                        "text": "Hmm, I suppose you're right, me. Let me just do a scan... Ah it appears you're the new intern."
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Lil Jacob",
+            "text": "You look a bit confused. Is something wrong?"
+        },
+        {
+            "name": "You",
+            "text": "To be honest, I'm not sure what's going on. One moment I'm looking at a fossil sample and the next alarms are blaring and..."
+        },
+        {
+            "name": "Lil Jacob",
+            "text": "Ah! The flood! That's why you see me running around! I’m only activated after an emergency to help clean up. If you haven't seen yet, the entire base flooded and there were some nasty ruptures on the hull I had to patch."
+        },
+        {
+            "name": "Lil Jacob",
+            "text": "So long as everyone followed protocol, they should be safely dormant in their stasis pods until help arrives."
+        },
+        {
+            "name": "Lil Jacob",
+            "text": "Now that begs the question... why are you not in yours?"
+        },
+        {
+            "type": "choice",
+            "choices": [
+                "I'm not so sure myself. You have any ideas?",
+                "I guess I'm just unlucky. Say, is the rest of the base still flooded?"
+            ],
+            "responses": [
+               [
+                { 
+                "name": "Lil Jacob",
+                "text": "Well then, let's have a look at that pod of yours."
+                 },
+                 { 
+                "name": "Lil Jacob",
+                "text": "Looks like yours had a malfunction. Wow, you're lucky HQ didn't flood or else... well let's just say you're lucky to be alive."
+                 },
+                 {
+                    "name": "Lil Jacob",
+                    "text": "Everywhere else is filled with water and-"
+                 }
+                ],
+                [
+                {
+                    "name": "Lil Jacob",
+                    "text": "Unfortunately all the other rooms are filled with water and I can’t seem to get the systems running to flush it out."
+                },
+                {
+                    "name": "Lil Jacob",
+                    "text": "But now that you’re awake, maybe you can help me get things going! Security is just next door so why don’t we try and get over there? I'm sure we can-"
+                }
+                ]
+            ]
+        },
+        {
+            "name": "Lil Jacob",
+            "text": "Did you hear that?"
+        },
+        {
+            "name": "You",
+            "text": "Hear what?"
+        },
+        {
+            "name": "Lil Jacob",
+            "text": "Quick, take cover! It's... it's a... a"
+        },
+        {
+            "name": "Lil Jacob",
+            "text": "Monster!"
+        },
+        {
+            "name": "You",
+            "text": "..."
+        },
+        {
+            "name": "You",
+            "text": "Hey, it's just a worm."
+        },
+        {
+            "name": "Lil Jacob",
+            "text": "Just a worm? Just a worm! I'll have you know this place is crawling with things much bigger than just 'worms!' In fact, I wouldn't be surprised if you found 'worms' skulking around the entire base!"
+        },
+        {
+            "type": "choice",
+            "choices": [
+                "I'm sure I can handle a few worms.",
+                "Oh, I guess I'll keep an eye out then."
+            ],
+            "responses": [
+                [
+                    {
+                        "name": "You",
+                        "text": "See? Not so scary. If anything else comes our way, I'll make sure to take care of it. Now let's head over to security."
+                    }
+                ],
+                [
+                    {
+                        "name": "Lil Jacob",
+                        "text": "Let's find a way around that worm and head to security."
+                    }
+                ]
+            ]
+            
+        }
+      
+    ]
+}
