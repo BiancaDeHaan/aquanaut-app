@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import router, { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { useTypingText } from '../app/useTypingTest';
 import HomeDialog from './AlertDialog';
