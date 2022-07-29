@@ -18,7 +18,7 @@ function IndexPage() {
         </Box>
       </SlideEffectWrapper>
     </div>
-  )
+  );
 }
 
 const Background = styled.div`
