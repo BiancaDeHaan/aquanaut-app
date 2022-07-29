@@ -5,18 +5,19 @@ import Layout from '../components/Layout';
 import { slideUp, SlideEffectWrapper, AnimationProps } from '../app/slideUpAnimation'
 
 
-const IndexPage: NextPage = () => {
+function IndexPage() {
   const router = useRouter();
 
   return (
-    <Layout>
+    <div>
+      <Layout />
       <SlideEffectWrapper>
         <Box>
           <TitleAnim delayTime='.5s'>Aquanauts</TitleAnim>
           <ButtonAnim delayTime='1s' onClick={() => { router.push('/game') }}>Play Now</ButtonAnim>
         </Box>
       </SlideEffectWrapper>
-    </Layout>
+    </div>
   )
 }
 

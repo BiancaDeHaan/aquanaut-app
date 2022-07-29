@@ -6,7 +6,8 @@ import {slideUp, SlideEffectWrapper, AnimationProps} from '../app/slideUpAnimati
 
 const AboutPage: NextPage = () => {
   return (
-    <Layout>
+    <div>
+    <Layout/>
       <SlideEffectWrapper>
         <Box>
           <Title delayTime='.5s'>About</Title>
@@ -20,7 +21,7 @@ const AboutPage: NextPage = () => {
           <Text delayTime='3s'>What to do?</Text>
         </Box>
       </SlideEffectWrapper>
-    </Layout>
+    </div>
   )
 }
 

@@ -4,27 +4,30 @@ import Layout from '../components/Layout'
 import { slideUp, SlideEffectWrapper, AnimationProps } from '../app/slideUpAnimation'
 
 
-const CreditPage : NextPage = () => {
-    return (
-      <Layout>
-      <Box>
-        <TitleAnim delayTime='.5s'>Meet the Team</TitleAnim>
-        <TeamMemberAnim delayTime='1s'>
-          <Name>Bianca</Name>
-          <Summary>
-            Programmer & Artist
-          </Summary>
-        </TeamMemberAnim>
-        <TeamMemberAnim delayTime='1.5s'>
-          <Name>Gabby</Name>
-          <Summary>
-            Writer
-          </Summary>
-        </TeamMemberAnim>
-      </Box>
-      </Layout>
-    )
-  }
+const CreditPage: NextPage = () => {
+  return (
+    <div>
+      <Layout/>
+      <SlideEffectWrapper>
+        <Box>
+          <TitleAnim delayTime='.5s'>Meet the Team</TitleAnim>
+          <TeamMemberAnim delayTime='1s'>
+            <Name>Bianca</Name>
+            <Summary>
+              Programmer & Artist
+            </Summary>
+          </TeamMemberAnim>
+          <TeamMemberAnim delayTime='1.5s'>
+            <Name>Gabby</Name>
+            <Summary>
+              Writer
+            </Summary>
+          </TeamMemberAnim>
+        </Box>
+      </SlideEffectWrapper>
+    </div>
+  )
+}
 
 const Title = styled.h1`
     font-size: 4em;
@@ -66,5 +69,5 @@ color: white;
 text-align: left;
 text-size: 1em;
 `
-  
-  export default CreditPage
+
+export default CreditPage
