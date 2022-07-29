@@ -40,7 +40,7 @@ const Box = styled.div`
     text-align: center;
 `
 
-const TeamMember = styled.button`
+const TeamMember = styled.div`
   border-radius: 1em;
   color: teal;
   padding: 1.5em;
