@@ -20,7 +20,13 @@ function Layout(props) {
 
   return (
     <div >
-      
+      <Background>
+      <Image src={background}
+      objectFit='cover'
+      quality={100}
+      alt="Aquascape"
+      layout='fill' />
+      </Background>
       <Header>
         <div>
           <MenuButton style={homeStyle} onClick={() => { router.push('/') }}>Home</MenuButton>
