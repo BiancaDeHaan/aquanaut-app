@@ -37,17 +37,10 @@ export const useTypingText = (
   }, [currentWord, keySpeed, words]);
 
   useEffect(() => {
-    console.log("Changing word!");
     if (words !== newWord) {
       letterIndex.current = 0;
       setCurrentWord('');
       setNewWord(words);
-
-      console.log("testing");
-      console.log(words);
-      console.log(currentWord);
-
-
     }
   }, [words])
 

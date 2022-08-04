@@ -20,7 +20,6 @@ function GamePage() {
   }
 
   function nextChapter() {
-    console.log("Next chapter");
     setChapter(chapter+1);
     localStorage.setItem('chapter', JSON.stringify(chapter+1));
   }
@@ -46,7 +45,7 @@ function GamePage() {
   //Handle the ready state and display the result contained in the data object mapped to the structure of the json file
   return (
     <div>
-      <Game story={JSON.parse(data).story} nextChapter={nextChapter}/>
+      <Game story={JSON.parse(data).story} nextChapter={nextChapter} chapter={chapter}/>
     </div>
   );
 }

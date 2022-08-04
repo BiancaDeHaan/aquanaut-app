@@ -6,7 +6,8 @@ import HomeDialog from './AlertDialog';
 import textImage from '../../public/bubble.png';
 import nameImage from '../../public/name.png';
 import logImage from '../../public/log.png';
-
+import choiceImage from '../../public/choice_button.png';
+import Log from './Log';
 // TODO consolidate setX from type into a function
 
 interface Data {
@@ -20,6 +21,7 @@ interface Data {
 interface StoryData {
     story: Data[];
     nextChapter: () => void
+    chapter: number;
 }
 
 const dialogueType = "DIALOGUE";
@@ -36,6 +38,8 @@ function Game(props: StoryData) {
     const [name, setName] = useState<string>("");
     const [responses, setResponses] = useState<Data[][]>();
 
+    const [isLogOpen, setLogOpen] = useState<boolean>(false);
+
     const { word } = useTypingText(
         text,
         50
@@ -43,7 +47,7 @@ function Game(props: StoryData) {
 
 
     function handleNextButtonClick() {
-        console.log(queue);
+        console.log("Next button clicked");
         // Finish queue if not empty
         if (queue && queue.length > 0) {
             const value = queue.shift();
@@ -73,18 +77,23 @@ function Game(props: StoryData) {
             // Next chapter
             props.nextChapter();
             // End of story
-            console.log("End of story");
         }
     }
 
     function handleLogButtonClick() {
-
+        setLogOpen(true);
     }
 
     function handleChoiceClick(data: Data[]) {
         var value = data;
         value.concat(queue);
         setQueue(value);
+    }
+
+    function keyDownHandler(e: KeyboardEvent) {
+        if(e.key === "Escape") {
+            setLogOpen(false);
+        }
     }
 
     useEffect(() => {
@@ -96,26 +105,33 @@ function Game(props: StoryData) {
             setText(props.story[index].text);
             setName(props.story[index].name);
         }
+
+        document.addEventListener('keydown', keyDownHandler);
+
+        // 👇️ clean up event listener
+        return () => {document.removeEventListener('keydown', keyDownHandler);
+    };
     }, []);
 
     useEffect(() => {
-        console.log("UPDATE");
-        console.log(queue);
         if (queue) handleNextButtonClick();
-        console.log(queue);
     }, [queue]);
 
     function generateChoices() {
         const choices = props.story[index].choices.map((choice, num) =>
-            <Choice onClick={() => handleChoiceClick(props.story[index].responses[num])} key={num}>{choice}</Choice>);
+            <Choice onClick={() => handleChoiceClick(props.story[index].responses[num])} key={num}>
+                <Image src={choiceImage} />
+                <ChoiceText>{choice}</ChoiceText>
+            </Choice>);
 
         return (
-            <div>{choices}</div>
+            <ChoiceArea>{choices}</ChoiceArea>
         )
     }
 
     return (
         <div>
+            {isLogOpen && <Log/>}
             <LogButton>
                 <Image src={logImage} onClick={handleLogButtonClick} />
             </LogButton>
@@ -129,9 +145,9 @@ function Game(props: StoryData) {
                     <TextArea>
                         <Image src={textImage} />
                         <Text>{word}</Text>
-                        <NextButton>
-                            <Image src={nameImage} onClick={handleNextButtonClick} />
-                            <NameText>Next</NameText>
+                        <NextButton onClick={handleNextButtonClick}>
+                            <Image src={nameImage} />
+                            <NameText >Next</NameText>
                         </NextButton>
                     </TextArea>
                 </DialogueArea>}
@@ -163,8 +179,25 @@ const NextButton = styled.div`
         color: gray;
       }
 `
-const Choice = styled.button`
-text-align: center;
+const ChoiceArea = styled.div`
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+`
+
+const Choice = styled.div`
+    text-align: center;
+    position: relative;
+    display: block;
+    font-size: 1.2em;
+    &:hover {
+        cursor: pointer;
+        color: gray;
+    }
 `
 
 const DialogueArea = styled.div`
@@ -178,6 +211,16 @@ const NameArea = styled.div`
     margin-left: 20%;
     display: block;
     width: 10%;
+`
+
+const ChoiceText = styled.p`
+font-size: 1.2em;
+margin: 0em;
+position: absolute;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+width: 80%;   
 `
 
 const NameText = styled.h1`
@@ -199,13 +242,14 @@ const TextArea = styled.div`
     
 `
 
-const Text = styled.p`
+const Text = styled.div`
     font-size: 1.5em;
     margin: 0em;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    width: 80%;
 `;
 
 

@@ -1,0 +1,15 @@
+{
+    "entries" : [
+        {
+            "room_name" : "HQ",
+            "room_description": "The HQ is the oldest and central most room of the base. Built in 2197, the base was originally made for short term ocean research, but as more and more life was discovered on the seafloor, the infrastructure grew room by room into the set of comprehensive facilities it is today. This includes a fully furnished lounge, two research labs, and top of the line systems made to help keep the base running and provide the crew with all the modern amenities they would otherwise have on the surface. While HQ might look somewhat corporate, as the base grew in size, the designers began to put more effort into customizing each room, pulling in flavors of home to help the crew feel more comfortable during their extended stay below the surface. But while HQ hasn’t changed much since day one, it is one of the most influential rooms of the base.",
+            "char_name" : "Lil Jacob",
+            "age": "2",
+            "height": "2'6\"",
+            "favorite_color" : "gray",
+            "occupation":"Emergency Repair Robot",
+            "hobbies": "N/A",
+            "misc_info": "Lil Jacob was made to repair the ship in times of emergency. His rotund form and waterproof hull help him easily travel through the base’s halls and across the seafloor at high speeds. Helpful as he is with infrastructure repairs, no one’s really explained why his name is “Lil Jacob” when it wasn’t Jacob who made him..."
+        }
+    ]
+}
