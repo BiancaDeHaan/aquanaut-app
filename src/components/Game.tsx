@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import styled from "styled-components";
 import { useTypingText } from "../app/useTypingTest";
 import HomeDialog from "./AlertDialog";
@@ -127,7 +126,7 @@ function Game(props: StoryData) {
         onClick={() => handleChoiceClick(props.story[index].responses[num])}
         key={num}
       >
-        <Image src="/choice_button.png" />
+        <img src="/choice_button.png" />
         <ChoiceText>{choice}</ChoiceText>
       </Choice>
     ));
@@ -144,7 +143,7 @@ function Game(props: StoryData) {
       />
       {isLogOpen && <Log onExit={handleExitLogButton} logs={props.log} />}
       <LogButton>
-        <Image src="/log.png" onClick={handleLogButtonClick} />
+        <img src="/log.png" onClick={handleLogButtonClick} />
       </LogButton>
       <HomeDialog />
       {type === dialogueType && (
@@ -153,7 +152,7 @@ function Game(props: StoryData) {
             <NameArea>
               <NameText>{name}</NameText>
             </NameArea>
-            <Image src="/bubble.png" />
+            <img src="/bubble.png" />
             <Text>{word}</Text>
             <NextButton onClick={handleNextButtonClick}>
               <NameText>Next</NameText>
