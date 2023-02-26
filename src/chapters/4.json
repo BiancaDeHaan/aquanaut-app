@@ -15,6 +15,7 @@
             "text": "Well, well, what happened here?"
         },
         {
+            "type": "choice",
             "choices": [
                 "The base flooded.",
                 "Do you really not remember?"
@@ -61,6 +62,7 @@
             "text": "Man, look at the state of this place. I wish Jacob was here to help clean up."
         },
         {
+            "type": "choice",
             "choices": [
                 "I can help clean, I don't mind.",
                 "Jacob? I mean he was in HQ... I don't see how he'd be of much help though. He's a little... small."

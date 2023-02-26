@@ -127,7 +127,7 @@ function Game(props: StoryData) {
         onClick={() => handleChoiceClick(props.story[index].responses[num])}
         key={num}
       >
-        <Image src={choiceImage} />
+        <Image src="/choice_button.png" />
         <ChoiceText>{choice}</ChoiceText>
       </Choice>
     ));
@@ -144,7 +144,7 @@ function Game(props: StoryData) {
       />
       {isLogOpen && <Log onExit={handleExitLogButton} logs={props.log} />}
       <LogButton>
-        <Image src={logImage} onClick={handleLogButtonClick} />
+        <Image src="/log.png" onClick={handleLogButtonClick} />
       </LogButton>
       <HomeDialog />
       {type === dialogueType && (
@@ -153,7 +153,7 @@ function Game(props: StoryData) {
             <NameArea>
               <NameText>{name}</NameText>
             </NameArea>
-            <Image src={textImage} />
+            <Image src="/bubble.png" />
             <Text>{word}</Text>
             <NextButton onClick={handleNextButtonClick}>
               <NameText>Next</NameText>

@@ -36,6 +36,7 @@
             "text": "Aggressive? Pfft, fish who live in schools tends to be rather meek."
         },
         {
+            "type": "choice",
             "choices": [
                 "I'm telling the truth! It all happened when I opened the airlock...",
                 "Yeah... I do study animal biology you know."
@@ -133,6 +134,7 @@
             "text": "Anything I can help you with since you woke me up?"
         },
         {
+            "type": "choice",
             "choices": [
                 "Do you happen to know why the base flooded?",
                 "Who's in the room nextdoor?"
