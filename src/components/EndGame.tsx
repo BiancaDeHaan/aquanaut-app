@@ -34,8 +34,6 @@ cursor: pointer;
 
 const Background = styled.div`
   background: rgba(232,255,252,1);
-  layout=fill;
-  objectFit=cover;
   position: fixed;
    top: 0;
    left: 0;

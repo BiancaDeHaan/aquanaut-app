@@ -73,6 +73,7 @@ const HomeButton = styled.div`
     right: 0;
     width: 5%;
     cursor: pointer;
+    z-index: 3;
 
 `
 

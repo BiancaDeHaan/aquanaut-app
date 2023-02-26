@@ -1,0 +1,350 @@
+{
+    "character": "riley",
+    "height": 80,
+    "background": "hq.png",
+    "state": "text",
+    "story": [
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Hey kid, been awhile hasn't it?"
+        },
+        {
+            "type": "dialogu",
+            "name": "You",
+            "text": "Sorry, but I'm not sure who..."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Yeah we probably haven't crossed paths much. Interns tend to get sattled with research, not security concerns."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "The name's Riley. I'm in charge of making sure the network and systems aren't attacked... and before you ask, the weapons are so the crew can defend themselves in case of emergency."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Man what a mess we've got here. What even happened? I was just fixing the door systems and suddenly the alarms were going off."
+        },
+        {
+            "type": "choice",
+            "choices": [
+                "I'm not really sure, it all happened so fast I'm still reeling from it.",
+                "The base flooded! But I don't know from what."
+            ],
+            "responses": [
+                [
+                    {
+                        "name": "Riley",
+                        "text": "Well that makes two of us."
+                    }
+                ],
+                [
+                    {
+                        "name": "Riley",
+                        "text": "Well I guess I'm lucky this room isn't worse off then."
+                    }
+                ]
+            ]
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Looks like the room only flooded a little. Let's check the cameras and see how the rest of the base is doing."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Shit! Looks like the camera got flooded... weird since they're in waterproof cases. Looks like we're running blind for now."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Hey, If I give you these broken cameras maybe you can them over to the engineer later?"
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Sure... though I don't exactly know where they are."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "I'm still finding my way around..."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Don't worry, you won't miss their lab."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "I assume you used the stasis pod in HQ... how's it looking in there?"
+        },
+        {
+            "type": "choice",
+            "choices": [
+                "HQ? Lucky for me, very dry.",
+                "Unscathed! Which wturned out to be a good thing for me."
+            ],
+            "responses": [
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Lucky? What, your statsis pod fail or something?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Ah. Lucky you then."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Well, I suppose we have to assume the rest of the rooms are flooded."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Hey, you haven't happened to have seen a little robot rolling around, have you? About a foot tall... annoying as hell."
+                    }
+                ],
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "A good thing? Dry equiptment sure is a good thing. They had you working out of HQ right? Or were you in a lab."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Mostly the biology lab. But I got lucky being in HQ when I was. Too bad my pod malfunctioned and spit me out too early."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "I see... well lucky you then."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Not to change the subject but you haven't happened to see a little robot buzzing around, have you? He's a bit of a short and annoying fellow..."
+                    }
+                ]
+            ]
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Oh you mean Lil Jacob?"
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "That's the one."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "He actually was the one who checked out my pod for me."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Hmph. Yeah I'm sure he did a great job repairing it too."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Well no..."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Useless robot. I don't even know why the crew keeps him around."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Hey he's... cute, I guess."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Oh! He also said something... something about threats... oh, what was it?"
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "It probably wasn't important. That robot gets scared of worms kid."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Worms! That's it!"
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "He said the base is crawling with things much bigger than worms!"
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Hmm, I suppose some animals may have got in with the breach. Too bad the cameras are down or else we'd have a better angle on what."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "I suppose if we want to get the rest of the base opeerational we'd have to get them out..."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Say kid, you said you did biology right?"
+        },
+        {
+            "type": "choice",
+            "choices": [
+                "Yeah... where are eyou going with this?",
+                "And this is relevant how?"
+            ],
+            "responses": [
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "I think I know how we can clear the base. We just need someone who knows how to manually override the doors - me - and someone who can handle the animals - you."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "See, the problem with an inhospitable room is that the systems force the doors closed to so no one can enter and get hurt."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "In tandem with the stasis pods, it lets us survive down here until help arrives. But since we're both awake now..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Well we have to eat, don't we?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "I take it this means we need to make the rest of the rooms safe to enter."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Exactly. I knew there was a reason they made you the intern."
+                    }
+                ],
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Nevermind, don't tell me then. It's not like we need the rest of the base operational to survive."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Don't they have failsafees for this?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Kid, this was the failsafe. The alarms blare, the crew goes into stasis, and the doors lock to keep anyone out of uninhabitable areas."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Riley",
+                        "text": "Unfortunately for us, we need to make those areas habitable for ourselves again."
+                    }
+                ]
+            ]
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "We'll need to work together to wake up the rest of the crew."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "So how do we open the doors?"
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "The only way to manually override them is from here... meaning I'll have to stay here."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "There should be a valve in each room where you can flush out any of the water. The base should've manually done so but..."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Well that might be something to ask the engineer about."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Another thing to pass on to them I guess."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "After you flush each room, make sure to wake up the crew member. Just the two of us can't run this base ourselves."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Sure... only there's one problem with this plan."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "What's that?"
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "I can't exactly breathe under water."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Funny you should say that."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Go check HQ, I'm sure theres some extra scuba suits lying around."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Not like anyone knows how to clean up after themselves in this goddamn place."
+        },
+        {
+            "type": "dialogue",
+            "name": "Riley",
+            "text": "Maybe today that'll finally come in useful."
+        }
+    ]
+}

@@ -1,5 +1,7 @@
 {
-    "state": "text",
+    "character": "liljacob",
+    "height": 38,
+    "background": "hq.png",
     "story": [
         {
             "type": "dialogue",

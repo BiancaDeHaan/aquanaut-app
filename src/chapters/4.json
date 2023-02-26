@@ -1,0 +1,228 @@
+{
+    "character": "darryl",
+    "height": 80,
+    "background": "hq.png",
+    "state": "text",
+    "story": [
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "Hello there!"
+        },
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "Well, well, what happened here?"
+        },
+        {
+            "choices": [
+                "The base flooded.",
+                "Do you really not remember?"
+            ],
+            "responses": [
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "That was a rhetorical question. I know the base flooded, intern."
+                    }
+                ],
+                [   {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "Remember? Of course I remember."
+                    }
+                ]
+            ]
+        },
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "I was cleaning the lunch dishes and heard a horrible grinding sound, like someone was tearing through metal with their nails."
+        },
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "I was in my pod before the alarms could even sound."
+        },
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "Oh, don't give me that look."
+        },
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "Better to be prepared than dead."
+        },
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "Man, look at the state of this place. I wish Jacob was here to help clean up."
+        },
+        {
+            "choices": [
+                "I can help clean, I don't mind.",
+                "Jacob? I mean he was in HQ... I don't see how he'd be of much help though. He's a little... small."
+            ],
+            "responses": [
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "Pfft, you, help clean? Intern, you'd just get in the way!"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "Jacob may not be food-safety certified, but he at least would know what to do."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Just cause I'm an intern doesn't make me useless."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Besides, it's your responsibility to teach me."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "And now I'm just confused. How is that little robot going to help you clean?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "Not him! Ugh... I mean the scientist? The one you're studying under?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "Works on mapping the underseas terrain... don't tell me you never crossed paths with him."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Sorry, I've been a bit busy with learning the layout of the ship... and emptying the place of water..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "...and fighting off giant crabs."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "Well, I suppose things have been a bit stressful. And he has been a bit scare the past few weeks."
+
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "Now, how about I see if I can scrounge you up a snack and you tell me more about those crabs."
+                    }
+                ],
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "You mean Lil Jacob? I'm not talking about that annoying robot."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "I mean the scientist that you studied with."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Oh..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "He maps the ocean floor? Has a passion for languages? Come on, get your shit together intern."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Working on it..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Though it's hard when you're trying to make sure the base isn't being destroyed by a massive flood."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Anyway, you could be a little nicer to me. I just cleared your kitchens of five giant crabs."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "...Chef."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "You're right. I apologize."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Darryl",
+                        "text": "Now, crabs you say...tell me about that."
+                    }
+                ]
+            ]
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Not much to say really. I opened the doors and was accosted by them."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "They pinched at me with their sharp claws. Some of them were almost four foot across! I'm actually lucky to be alive."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Unfortunately this is becomming a trend..."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Anyway, I picked up one of your kitchen knives and was able to fight them off to get to the valve."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Oh, speaking of, you can have this back."
+        },
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "You may as well hang onto that."
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Thanks? I think. Wait, why?"
+        },
+        {
+            "type": "dialogue",
+            "name": "Darryl",
+            "text": "Well intern, I have a favor to ask.."
+        }
+
+    ]
+}

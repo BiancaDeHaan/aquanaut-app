@@ -1,0 +1,234 @@
+{
+    "character": "fuzzie",
+    "height": 80,
+
+    "background": "hq.png",
+    "state": "text",
+    "story": [
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "Ah, hello!"
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "Fuzzy, right?"
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "In the flesh! You're the neew intern, right? I think I've seen you around a bit. What are you doing-"
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "What happened to my garden? The hydroponics! It's all ruined!"
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Well we had a bit of a flood... and I had to deal with a rather aggressive school of fish."
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "Aggressive? Pfft, fish who live in schools tends to be rather meek."
+        },
+        {
+            "choices": [
+                "I'm telling the truth! It all happened when I opened the airlock...",
+                "Yeah... I do study animal biology you know."
+            ],
+            "responses": [
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "The second I enterred the room, all the fish began to swarm."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "They don't usually do that..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Well these ones did. They swam around me, blocking my vision and tripping me up. It was almost like they were geetting into some kind of formation."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "I'm no athlete, but I could've won a medal with how fast I made it to that release valve."
+                    }
+                ],
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "I know, I just-"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Look, I'm not here to argue, I'm just telling you what happened."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Riley overrode the door and I opened it with my keycard."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "I went to make my way to the release valve to get the water out."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "But a school of fish was caught in the room. As if under orders, they started attacking me!"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "That's weird."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "You don't say. I more or less had to fight my way through a cloud of fins and gills!"
+                    }
+                ]
+            ]
+        },
+        {
+            "type": "dialogue",
+            "name": "You",
+            "text": "Anyway, fish aside, you think you can get this place up and running?"
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "Of course I can! It'll just be a hassle is all."
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "I'll have to let the soil dry out and clean all the tanks. Then I'll have to replant everything. Ugh, so much work!"
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "Once I get this place back up and running though, I can provide food for the whole base."
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "Good thing you woke me up, this is gonna take forever."
+        },
+        {
+            "type": "dialogue",
+            "name": "Fuzzy",
+            "text": "Anything I can help you with since you woke me up?"
+        },
+        {
+            "choices": [
+                "Do you happen to know why the base flooded?",
+                "Who's in the room nextdoor?"
+            ],
+            "responses": [
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "Can't say I'm too sure on that one. I was just cleaning the fish tanks when the alarms went off."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "You know, now that you say something about that school of fish... the ones in the tanks..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "What about them?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "Nah, I'm just being paranoid is all."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "Hey, why stand here and chat with me? You've got nine more rooms to open up! Don't let me keep you."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "The kitchen is nextdoor, so you should go open that one up. I only grow food, not cook it."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "But about your fish-"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "Don't let me keep you."
+                    }
+                ],
+                [
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "Nextdoor? Oh that'll be the kitchen. You'll be able to find Darryl there, he's our chef."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "Orange hair and likes music, right?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "That's the one, though he likes classical stuff. Not enough synth for me, personally."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "Anyway, he's the one who cooks the food I grow and the fish I keep..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "The fish..."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "What about them?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "Ah, nothing! You should go ahead on over to the kitchen."
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "You",
+                        "text": "But it might be important?"
+                    },
+                    {
+                        "type": "dialogue",
+                        "name": "Fuzzy",
+                        "text": "It's not. Don't let me stand in your way."
+                    }
+                ]
+            ]
+        }
+
+    ]
+}
