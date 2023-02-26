@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import styled from "styled-components";
 import { useTypingText } from "../app/useTypingTest";
 import HomeDialog from "./AlertDialog";
@@ -126,7 +127,7 @@ function Game(props: StoryData) {
         onClick={() => handleChoiceClick(props.story[index].responses[num])}
         key={num}
       >
-        <img src="/choice_button.png" />
+        <ChoiceImage src="/choice_button.png" />
         <ChoiceText>{choice}</ChoiceText>
       </Choice>
     ));
@@ -142,9 +143,7 @@ function Game(props: StoryData) {
         src={"/characters/" + props.character + ".png"}
       />
       {isLogOpen && <Log onExit={handleExitLogButton} logs={props.log} />}
-      <LogButton>
-        <img src="/log.png" onClick={handleLogButtonClick} />
-      </LogButton>
+      <LogButton src="/log.png" onClick={handleLogButtonClick} />
       <HomeDialog />
       {type === dialogueType && (
         <DialogueArea>
@@ -152,7 +151,7 @@ function Game(props: StoryData) {
             <NameArea>
               <NameText>{name}</NameText>
             </NameArea>
-            <img src="/bubble.png" />
+            <DialogueImage src="/bubble.png" />
             <Text>{word}</Text>
             <NextButton onClick={handleNextButtonClick}>
               <NameText>Next</NameText>
@@ -164,6 +163,18 @@ function Game(props: StoryData) {
     </Wrapper>
   );
 }
+
+const DialogueImage = styled.img`
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  position: relative;
+`;
+
+const ChoiceImage = styled.img`
+  width: 100%;
+  position: relative;
+`;
 
 const Background = styled.img`
   position: fixed;
@@ -180,7 +191,7 @@ const Character = styled.img`
   height: ${(props) => props.height + "%" || "80%"};
 `;
 
-const LogButton = styled.div`
+const LogButton = styled.img`
   position: fixed;
   top: 0;
   left: 0;
